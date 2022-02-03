@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ARTIST</a></li>
+                <li><a href="#">GENRE</a></li>
+                <li><a href="#">PLAYLIST</a></li>
+                <li><a href="#">FAVOURITE</a></li>
+            </ul>
+        </div>
+        <div class="columns">
+            <div class="left-col">
+                <h1>MuSiC <br> iS <br> EmOtiON</h1>
+            </div>
+            <div class="right-col">
+                <p>Click To Play</p>
+                <!-- <img src="blck.png" id="icon" alt=""> -->
+                <button onclick="playAudio()"type="button">Play Audio</button>
+                <button onclick="pauseAudio()"type="button">pause Audio</button>
+
+            </div>
+        </div>
+    </div>
+    
+    <audio id="song">
+        <source src="AASHIQUI 2 MASHUP FULL SONG _ KIRAN KAMATH _ BEST BOLLYWOOD MASHUPS ( 128kbps ).mp3" type="audio/mp3">
+
+    </audio>
+    <script src="script.js"></script>
+    
+</body>
+</html>
